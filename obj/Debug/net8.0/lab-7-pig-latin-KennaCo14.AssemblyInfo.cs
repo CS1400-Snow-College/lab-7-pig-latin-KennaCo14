@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-7-pig-latin-KennaCo14")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75b3cf5ce35aa602a3106cb71b7f42e04a23c87b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f88a98dc482d9d82a2adfc18dc3ed8f56776006")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-7-pig-latin-KennaCo14")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-7-pig-latin-KennaCo14")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

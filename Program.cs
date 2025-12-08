@@ -12,6 +12,8 @@ string[] input = Console.ReadLine().ToLower().Split(" ");
 char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
 string pigTranslate = "";
+string encryptLatin = "";
+
 //PigLatining
 for (int i = 0; i < input.Length; i++)
 {
@@ -51,4 +53,28 @@ for (int i = 0; i < input.Length; i++)
 foreach(string word in input)
     pigTranslate += word + " ";
 
+
+//Encryption
+
+Random rand = new Random();
+int offSet = rand.Next(1, 26);
+
+foreach (char pig in pigTranslate)
+{
+    if(pig >= 97 && pig <= 122)
+    {
+        int newLetter = pig;
+        int shift = newLetter + offSet;
+
+        if(shift > 122)
+            shift = shift - 26;
+
+        encryptLatin +=(char)shift;
+    }
+    else    
+        encryptLatin += pig;
+
+}
+
 Console.WriteLine($"In pig latin: {pigTranslate}.");
+Console.WriteLine($"In encryption: {encryptLatin}.");
